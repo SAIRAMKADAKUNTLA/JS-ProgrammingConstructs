@@ -1,6 +1,6 @@
 const read=require("prompt-sync");
 const prompt=read();
-let number = prompt("Enter a number from 1-9")
+let number = prompt("Enter a number from 1-7")
 let check = parseInt(number);
 switch(check)
 {    
@@ -11,10 +11,10 @@ switch(check)
         console.log("Monday");
         break;
     case 3:
-        console.log("tuesday");
+        console.log("Tuesday");
         break;
     case 4:
-        console.log("wednesday");
+        console.log("Wednesday");
         break;
     case 5:
         console.log("Thursday");
@@ -26,5 +26,5 @@ switch(check)
         console.log("Saturday");
         break;    
     default:
-        console.log("Invalid Number");
+        console.log("Invalid Selection");
 }
